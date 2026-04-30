@@ -17,7 +17,7 @@ This project includes mathematical derivations and a Python implementation (Jupy
 Consider a counting process $N(t)$. Using $t_1, t_2, \ldots$ to denote the observed sequence of past arrival times of the point process. The Hawkes process' conditional intensity function is supposed to be of the form
 
 $$
-\lambda^{\ast}(t) = \mu + \int_{(0,t)} \alpha \, e^{-\beta(t-s)} \, dN(s) = \mu + \sum_{t_i < t} \alpha \, e^{-\beta(t - t_i)}
+\lambda^{\ast}(t) = \mu + \int_{(0,t)} \alpha \, e^{-\beta(t-s)}  dN(s) = \mu + \sum_{t_i < t} \alpha \, e^{-\beta(t - t_i)}
 $$
 
 **Parameters:**
