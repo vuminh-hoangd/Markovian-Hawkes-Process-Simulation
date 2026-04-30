@@ -30,7 +30,7 @@ $$
 
 #### 1. Markov Property of the Pair
 
-We rigorously demonstrate that the pair $(N(t),\, \lambda^{\ast}(t))$ is a **Markov process**.
+We rigorously demonstrate that the pair $(N(t)\, \lambda^{\ast}(t))$ is a **Markov process**.
 
 $$
 \mathbb{E}\bigl[h(N(t+u),\, \lambda^{\ast}(t+u)) \mid \mathcal{F}\_t\bigr] = \mathbb{E}\bigl[h(N(t+u),\, \lambda^{\ast}(t+u)) \mid N(t),\, \lambda^{\ast}(t)\bigr] \quad \text{a.s.}
@@ -50,7 +50,7 @@ $$
 
 ## Features
 
-- **Mathematical Rigor:** Detailed proofs for the Markov property and stationarity limits.
+- **Mathematics:** Detailed proofs for the Markov property and stationarity limits.
 - **Simulation:** Implementation of the **Ogata Thinning Algorithm** to generate sample paths of the Hawkes process.
 - **Visualization:** Plots showing the jump dynamics of $\lambda^{\ast}(t)$ and its convergence toward the theoretical mean.
 
