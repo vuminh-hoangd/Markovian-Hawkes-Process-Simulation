@@ -30,10 +30,10 @@ $$
 
 #### 1. Markov Property of the Pair
 
-We rigorously demonstrate that the pair $(N(t)\, \lambda^{\ast}(t))$ is a **Markov process**.
+We rigorously demonstrate that the pair $(N(t)\, \lambda^{\ast}(t))$ is a **Markov process**. That is, for any $u \geq 0$ and any bounded measurable $h: \mathbb{N} \times \mathbb{R}_+ \to \mathbb{R}$:
 
 $$
-\mathbb{E}\bigl[h(N(t+u),\, \lambda^{\ast}(t+u)) \mid \mathcal{F}\_t\bigr] = \mathbb{E}\bigl[h(N(t+u),\, \lambda^{\ast}(t+u)) \mid N(t),\, \lambda^{\ast}(t)\bigr] \quad \text{a.s.}
+\mathbb{E}\bigl[h(N(t+u),\, \lambda^{\ast}(t+u)) \mid \mathcal{F}\_t\bigr] = \mathbb{E}\bigl[h(N(t+u),\, \lambda^{\ast}(t+u)) \mid N(t)\, \lambda^{\ast}(t)\bigr] \quad \text{a.s.}
 $$
 
 #### 2. Long-term Convergence
