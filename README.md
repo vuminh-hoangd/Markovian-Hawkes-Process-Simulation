@@ -5,7 +5,7 @@
 ---
 
 ## Overview
-This repository provides a rigorous exploration of **Hawkes Processes**—a class of self-exciting point processes—specifically focusing on the **exponential kernel**. While general Hawkes processes are typically non-Markovian, the choice of an exponential kernel allows the system to be represented as a Markovian state-space model.
+This repository rigorous explored the **Hawkes Processes**—a class of self-exciting point processes—specifically focusing on the **exponential kernel**. While general Hawkes processes are typically non-Markovian, the exponential kernel allows the system to be a Markov Jump Process.
 
 This project includes mathematical derivations and a Python implementation (Jupyter Notebook) to simulate these processes and verify their theoretical properties.
 
