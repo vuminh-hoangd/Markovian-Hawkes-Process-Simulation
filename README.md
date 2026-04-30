@@ -27,16 +27,18 @@ $$\lambda^*(t) = \mu  + \int_{(0,t) } \alpha e^{-\beta (t-s)} d N(s) = \mu  +  \
 ### Key Propositions
 
 #### 1. Markov Property of the Pair
-We rigorously demonstrate that the pair $(N(t), \lambda^*(t))$ constitutes a **Markov process**. This is a significant result, as it simplifies the analysis of a process that otherwise depends on its entire history.
+We rigorously demonstrate that the pair $(N(t), \lambda^*(t))$ constitutes a **Markov process**.
 
-> **Proposition:** For any $u \geq 0$ and any bounded measurable $h: \mathbb{N} \times \mathbb{R}_+ \to \mathbb{R}$:
-> $$ \mathbb{E}[h(N(t+u), \lambda^*(t+u)) \mid \mathcal{F}_t] = \mathbb{E}[h(N(t+u), \lambda^*(t+u)) \mid N(t), \lambda^*(t)] \quad \text{a.s.} $$
+**Proposition:** For any $u \geq 0$ and any bounded measurable $h: \mathbb{N} \times \mathbb{R}_+ \to \mathbb{R}$:
+
+$$\mathbb{E}[h(N(t+u), \lambda^*(t+u)) \mid \mathcal{F}_t] = \mathbb{E}[h(N(t+u), \lambda^*(t+u)) \mid N(t), \lambda^*(t)] \quad \text{a.s.}$$
 
 #### 2. Long-term Convergence
-We analyze the stability of the process. If the branching ratio $\frac{\alpha}{\beta} < 1$, the expected intensity converges to a stationary value.
+If the branching ratio $\frac{\alpha}{\beta} < 1$, the expected intensity converges to a stationary value.
 
-> **Proposition:** As $t \to \infty$, the expected intensity satisfies:
-> $$ \mathbb{E}[\lambda^*(t)] \to \frac{\mu \beta}{\beta -\alpha} $$
+**Proposition:** As $t \to \infty$, the expected intensity satisfies:
+
+$$\mathbb{E}[\lambda^*(t)] \to \frac{\mu \beta}{\beta -\alpha}$$
 
 ---
 
@@ -44,12 +46,6 @@ We analyze the stability of the process. If the branching ratio $\frac{\alpha}{\
 *   **Mathematical Rigor:** Detailed proofs for the Markov property and stationarity limits.
 *   **Simulation:** Implementation of the **Ogata Thinning Algorithm** to generate sample paths of the Hawkes process.
 *   **Visualization:** Plots showing the jump dynamics of $\lambda^*(t)$ and its convergence toward the theoretical mean.
-
-## Usage
-The primary implementation is contained within the Jupyter Notebook:
-1. Open `Markovian_Hawkes_Simulation.ipynb`.
-2. Run the cells to generate simulations.
-3. Modify the $\mu, \alpha,$ and $\beta$ parameters to observe different self-excitation regimes (e.g., sub-critical vs. near-critical behavior).
 
 ---
 **Authors:** Hoang Dung Vu, Minh Anh, and Christopher Won
