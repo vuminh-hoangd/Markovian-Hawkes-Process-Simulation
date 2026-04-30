@@ -56,4 +56,4 @@ $$
 
 ---
 
-**Authors:** Hoang Dung Vu, Minh Anh, and Christopher Won
+**Authors:** Hoang Dung Vu Minh and Christopher Won
