@@ -27,11 +27,9 @@ $$\lambda^*(t) = \mu  + \int_{(0,t) } \alpha e^{-\beta (t-s)} d N(s) = \mu  +  \
 ### Key Propositions
 
 #### 1. Markov Property of the Pair
-We rigorously demonstrate that the pair $(N(t), \lambda^*(t))$ constitutes a **Markov process**.
+We rigorously demonstrate that the pair $(N(t), \lambda^*(t))$ is a **Markov process**.
 
-**Proposition:** For any $u \geq 0$ and any bounded measurable $h: \mathbb{N} \times \mathbb{R}_+ \to \mathbb{R}$:
-
-$$\mathbb{E}[h(N(t+u), \lambda^*(t+u)) \mid \mathcal{F}_t] = \mathbb{E}[h(N(t+u), \lambda^*(t+u)) \mid N(t), \lambda^*(t)] \quad \text{a.s.}$$
+$$\mathbb{E}[h(N(t+u), \lambda^{*}(t+u)) \mid \mathcal{F}_t] = \mathbb{E}[h(N(t+u), \lambda^{*}(t+u)) \mid N(t), \lambda^{*}(t)] \quad \text{a.s.}$$
 
 #### 2. Long-term Convergence
 If the branching ratio $\frac{\alpha}{\beta} < 1$, the expected intensity converges to a stationary value.
